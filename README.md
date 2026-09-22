@@ -1,6 +1,6 @@
 ![Tokamak field](tokamak_field.gif)
 
-# tokamak
+# Tokamak
 
 A little visualization of a tokamak plasma going from calm to falling apart, built by solving the Grad-Shafranov equation and watching what happens as the current ramps up.
 
