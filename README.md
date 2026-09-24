@@ -23,7 +23,7 @@ The story of the run: calm, then marginal, then a pressure-limit disruption at t
 - **Current diffusion.** The current profile diffuses resistively over time (a cylindrical diffusion equation, substepped to stay numerically stable).
 - **The sawtooth logic.** If q0 drops below 1, a Kadomtsev-style relaxation flattens the current inside the q=1 surface while conserving enclosed current. In the current run q0 hovers right around 1.0 and never actually crosses it, so this code is in the repo but doesn't fire.
 
-## What's not real (please read this part)
+## What's not real because I'm not a physiscist (please read this part)
 
 - **The current profile is prescribed**, not solved self-consistently from p'(ψ) and FF'(ψ). A real equilibrium code would do that.
 - **The plasma cross-section is circular**, not D-shaped.
